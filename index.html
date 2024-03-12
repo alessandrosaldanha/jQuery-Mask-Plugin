@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario</title>
+</head>
+<body>
+        <form id="meuFormulario">
+            <div class="container">
+                <h1>
+                    Formulário de cadastro
+                </h1>
+                <div class="f1">
+                    <label class="form-label">Nome Completo</label>
+                    <input id="nome" type="text" required name="nome-completo" class="form-control">
+                </div>
+                <div class="f1">
+                    <label class="form-label">E-mail</label>
+                    <input  id="email" type="email" name="e-mail" class="form-control">
+                </div>
+                <div class="f1">
+                    <label class="form-label">Telefone</label>
+                    <input id="phone" type="tel" required name="telefone" class="form-control">
+                </div>
+                <div class="f1">
+                    <label class="form-label">CPF</label>
+                    <input id="cpf" type="text" required name="cpf" class="form-control">
+                </div>
+                <div class="f1">
+                    <label class="form-label">Endereço completo</label>
+                    <input id="endereco" type="text" required name="endereco-completo" class="form-control">
+                </div>
+                <div class="f1">
+                    <label class="form-label">CEP</label>
+                    <input id="cep" type="text"  name="cep" class="form-control">
+                </div>
+                <div class="f1">
+                    <button id="btn" class="btn" type="submit">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
